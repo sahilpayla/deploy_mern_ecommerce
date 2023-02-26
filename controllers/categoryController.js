@@ -1,6 +1,7 @@
-import categoryModel from "../models/CategoryModel.js";
+
 import slugify from "slugify";
-// .
+import categoryModel from "../models/CategoryModel.js";
+
 
 export const createCategoryController = async (req, res) => {
   try {
